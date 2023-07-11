@@ -12,6 +12,7 @@ public class Main1 {
 
         dog1.setName("ppppp");
         System.out.println(dog1.getName());
+        dog1.Bow();
 
     }
 

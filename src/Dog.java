@@ -1,13 +1,8 @@
 public class Dog {
     private String name;
-    private int age;
 
     public Dog(String name) {
         this.name = name;
-    }
-
-    public Dog(int age) {
-        this.age = age;
     }
 
     public String getName() {
@@ -18,11 +13,7 @@ public class Dog {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void bow() {
+    public void Bow() {
         System.out.println("bow!");
     }
 }
