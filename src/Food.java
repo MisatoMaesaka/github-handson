@@ -1,4 +1,4 @@
-public class FOOD {
+public class Food {
     //関数の返り値は文字列　引数は数値型
     public static String getFavorite(int age) {
         String food;
