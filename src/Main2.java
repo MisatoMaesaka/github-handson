@@ -13,13 +13,11 @@ public class Main2 {
             int age = cat.getAge();
 
             // favorite関数で猫の好物を取得
-            String favorite = Food.getFavorite(age);
             System.out.println("ペットの名前" + count + "：" + cat.getName());
             System.out.print("年齢は" + cat.getAge() + "歳で、");
             System.out.println("毛の色は" + cat.getColor() + "です。");
+            System.out.println("好物は" + cat.getFavorite().getName() + "が大好きです！");
 
-            // 関数から取得してきた文字列を表示
-            System.out.println(favorite);
         }
 
     }
