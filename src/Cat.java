@@ -21,4 +21,14 @@ public class Cat {
     public String getColor() {
         return color;
     }
+
+    public Food getFavorite() {
+        if (age >= 4) {
+            return Food.CHURU;
+        } else if (1 <= age) {
+            return Food.KATSUOBUSHI;
+        } else {
+            return Food.NIBOSHI;
+        }
+    }
 }
