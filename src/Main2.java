@@ -10,7 +10,6 @@ public class Main2 {
         for (Cat cat : catList) {
 
             count = count + 1;
-            int age = cat.getAge();
 
             // favorite関数で猫の好物を取得
             System.out.println("ペットの名前" + count + "：" + cat.getName());
@@ -19,7 +18,5 @@ public class Main2 {
             System.out.println("好物は" + cat.getFavorite().getName() + "が大好きです！");
 
         }
-
     }
-
 }

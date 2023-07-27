@@ -9,10 +9,6 @@ public class Dog {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void Bow() {
         System.out.println("bow!");
     }
