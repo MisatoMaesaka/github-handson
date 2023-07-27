@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Main2 {
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
 
         int count = 0;
         List<Cat> catList = CatList.setCatList();
@@ -10,7 +10,6 @@ public class Main2 {
         for (Cat cat : catList) {
 
             count = count + 1;
-            int age = cat.getAge();
 
             // favorite関数で猫の好物を取得
             System.out.println("ペットの名前" + count + "：" + cat.getName());
