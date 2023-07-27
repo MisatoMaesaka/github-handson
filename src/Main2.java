@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Main2 {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         int count = 0;
         List<Cat> catList = CatList.setCatList();
