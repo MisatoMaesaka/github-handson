@@ -10,4 +10,3 @@ public class DogList {
         return dogs;
     }
 }
-
