@@ -97,6 +97,21 @@ date: Mon, 07 Aug 2023 01:41:19 GMT
 - Postman 結果
 <img width="1489" alt="スクリーンショット 2023-08-07 11 21 09" src="https://github.com/MisatoMaesaka/github-handson/assets/139186715/f440730e-b183-4d9c-9f9b-e1e9cdc625a7">
 
+### DELETEリクエスト
+- ターミナル　curl 結果
+```
+maesakamisato@seimatsusatootonoiMac ~ % curl -i -X DELETE \                                             
+  -H "Authorization: token ghp_mytoken" \
+  https://api.github.com/repos/MisatoMaesaka/hello-world-blog
+HTTP/2 204 
+server: GitHub.com
+date: Mon, 07 Aug 2023 02:49:43 GMT
+...
+```
+- Postman 結果
+<img width="1461" alt="スクリーンショット 2023-08-07 11 39 59" src="https://github.com/MisatoMaesaka/github-handson/assets/139186715/db1c7aeb-20a7-4b49-a0a5-36862190ea15">
+
+
 
 
 
