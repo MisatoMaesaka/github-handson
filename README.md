@@ -55,6 +55,48 @@ location: https://api.github.com/repos/MisatoMaesaka/blog
 
 ### PACTHリクエスト
 
+1. リポジトリ名をblogからhell-world-blogに変更する
+1. privateをpublicに変更
+1. Aboutを"This is your blog repository"に変更
+1. ホームページに"https://github.com" を設定
+
+- ターミナル curl 結果
+
+```
+ % curl -i -X PATCH \
+  -H "Accept: application/vnd.github.v3+json" \
+  -H "Authorization: token ghp_mytoken" \
+  https://api.github.com/repos/MisatoMaesaka/blog \
+  -d '{
+    "name":"hello-world-blog",
+    "description":"This is your blog repository",
+    "homepage":"https://github.com",
+    "private":false
+  }'
+HTTP/2 200 
+server: GitHub.com
+date: Mon, 07 Aug 2023 01:41:19 GMT
+...
+{
+...
+"name": "hello-world-blog",
+...
+  "private": false,
+...
+"html_url": "https://github.com/MisatoMaesaka/hello-world-blog",
+  "description": "This is your blog repository",
+...
+  "created_at": "2023-08-06T17:21:15Z",
+  "updated_at": "2023-08-07T01:41:18Z",
+...
+  "homepage": "https://github.com",
+...
+ "visibility": "public",
+...
+```
+
+
+
 
 
 
