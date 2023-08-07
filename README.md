@@ -18,7 +18,43 @@ content-type: application/json; charset=utf-8
 ```
 - Postman 結果
 <img width="1482" alt="スクリーンショット 2023-08-06 23 53 01" src="https://github.com/MisatoMaesaka/github-handson/assets/139186715/452d6a36-1ee5-4583-a5f8-3c9d8232fd43">
+
 ### POSTリクエスト
 - curl & ターミナル
+
 ```
+maesakamisato@seimatsusatootonoiMac ~ % curl -i -H "Authorization: token ghp_mytoken" \
+    -d '{
+        "name": "blog",
+        "auto_init": true,
+        "private": true,
+        "gitignore_template": "Nanoc"
+      }' \
+    https://api.github.com/user/repos
+HTTP/2 201 
+server: GitHub.com
+date: Sun, 06 Aug 2023 17:21:15 GMT
+...
+location: https://api.github.com/repos/MisatoMaesaka/blog
+{
+...
+ "name": "blog",
+...
+  "private": true,
+...
+"html_url": "https://github.com/MisatoMaesaka/blog",
+...
+  "created_at": "2023-08-06T17:21:15Z",
+  "updated_at": "2023-08-06T17:21:15Z",
+...
+  "visibility": "private",
+...
+```
+- Postman結果
+<img width="1481" alt="スクリーンショット 2023-08-07 10 25 56" src="https://github.com/MisatoMaesaka/github-handson/assets/139186715/7d1ba4f9-89e4-4119-9805-4da8fb8ddaf6">
+
+### PACTHリクエスト
+
+
+
 
