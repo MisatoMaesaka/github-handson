@@ -94,6 +94,8 @@ date: Mon, 07 Aug 2023 01:41:19 GMT
  "visibility": "public",
 ...
 ```
+- Postman 結果
+<img width="1489" alt="スクリーンショット 2023-08-07 11 21 09" src="https://github.com/MisatoMaesaka/github-handson/assets/139186715/f440730e-b183-4d9c-9f9b-e1e9cdc625a7">
 
 
 
